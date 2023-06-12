@@ -1,1 +1,31 @@
 /* write your override styles here */
+
+/* Override body background */
+body {
+    background: white; /* Change the background color */
+    background-image: none; /* Remove the background image */
+  }
+  
+  /* Override #wall styles */
+  #wall {
+    margin: 0 auto; /* Remove the top margin */
+    width: 100%; /* Make the width responsive */
+    height: 100vh; /* Make the height full viewport height */
+    background: none; /* Remove the background image */
+    box-shadow: none; /* Remove the box shadow */
+    border: none; /* Remove the border */
+    border-bottom: none; /* Remove the bottom border */
+  }
+  
+  /* Override individual tags styles */
+  .tag-1,
+  #tag-2,
+  #tag-3,
+  #tag-4,
+  #tag-5,
+  #tag-6,
+  #tag-7 {
+    background: none; /* Remove the background image */
+    display: none; /* Hide the tags */
+  }
+  
